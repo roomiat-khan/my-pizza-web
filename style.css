@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-image: url(./home\ page\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 65px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.logo {
+        text-align: right;
+        display: flex;
+        width: 160px;
+        height: 80px;
+}
+
+.cta {
+    background-color: #e64302;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #e63900;
+}
+
+.menu-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    color: #000000;
+    background-image: url(./home\ page\ pic\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.h3 {
+    text-align: center;
+    margin-right: -350px;
+
+}
+.contact-section {
+    padding: 20px 5px;
+    text-align: center;
+    color: #000000;
+    background-image: url(./con-page.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200vh; 
+}
+.p {
+    text-align: center;
+    margin-right: 670px;
+    margin-top: 30%;
+    color: #000000;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
